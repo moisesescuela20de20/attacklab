@@ -1,0 +1,36 @@
+{
+  "name": "attacklab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AttackLab — Simulador de Ataques para Aprendizaje: laboratorio web para practicar seguridad informática de forma legal y guiada.",
+  "type": "module",
+  "scripts": {
+    "dev:api": "tsx watch src/server/server.ts",
+    "dev:web": "vite",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx src/server/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "author": "Moises Alexander Martinez Perez",
+  "license": "MIT"
+}

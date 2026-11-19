@@ -41,7 +41,7 @@
 ## Instalación y uso
 
 ```bash
-git clone https://github.com/<tu-usuario>/attacklab.git
+git clone https://github.com/moisesescuela20de20/attacklab.git
 cd attacklab
 npm install
 ```
